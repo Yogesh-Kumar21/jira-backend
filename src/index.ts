@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 // middlewares
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:3000"
+    origin: "https://jira-yogesh-kumar21s-projects.vercel.app"
 }))
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
