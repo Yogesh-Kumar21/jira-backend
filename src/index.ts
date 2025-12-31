@@ -20,11 +20,12 @@ app.use(cors({
     credentials: true,
     origin: true
 }))
+app.options("*", cors())
+
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
-app.use(cookieParser())
 app.use(express.json())
-app.use(session({ secret: "keyboard cat" }))
+app.use(cookieParser())
 
 app.use('/auth', authRouter)
 app.use('/api', userRouter)
