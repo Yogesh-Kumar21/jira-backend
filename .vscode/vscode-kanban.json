@@ -1,0 +1,85 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "aditya"
+      },
+      "creation_time": "2025-05-25T08:40:14.937Z",
+      "description": {
+        "content": "COMPLETE BASIC CHAT FOR EACH USER AND A BUSINESS",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "CHAT"
+    },
+    {
+      "assignedTo": {
+        "name": "aditya"
+      },
+      "creation_time": "2025-05-27T10:43:19.337Z",
+      "description": {
+        "content": "Change the logo field to same name in all schemas and modify the code accordingly",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "SCHEMA"
+    },
+    {
+      "assignedTo": {
+        "name": "aditya"
+      },
+      "creation_time": "2025-05-25T08:38:22.998Z",
+      "description": {
+        "content": "CREATE AN EVENTSOURCE LISTENING ENDPOINT FOR TEAM MESSAGES",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "TEAM"
+    },
+    {
+      "assignedTo": {
+        "name": "aditya"
+      },
+      "creation_time": "2025-05-25T08:38:39.858Z",
+      "description": {
+        "content": "CREATE AN EVENTSOURCE ENDPOINT FOR SENDING MESSAGES FOR A TEAM",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "TEAM"
+    },
+    {
+      "assignedTo": {
+        "name": "aditya"
+      },
+      "creation_time": "2025-05-25T08:39:31.271Z",
+      "description": {
+        "content": "COMPLETE BASIC TEAM CHAT WITH NOTIFICATIONS TO EACH MEMBER",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "TEAM CHAT"
+    },
+    {
+      "assignedTo": {
+        "name": "aditya"
+      },
+      "creation_time": "2025-06-08T15:46:21.356Z",
+      "description": {
+        "content": "DO NOT PREFETCH THE NOTIFICATIONS. FETCH NOTIFICATIONS ONLY WHEN USER CLICKS ON BELL ICON. FOR THE UNREAD STATUS, MAINTAIN A FIELD IN SCHEMA WHICH TELLS IF THERE IS ANY UNREAD MESSSAGE OR NOTIFICATION\n",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "NOTIFICATIONS"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}
