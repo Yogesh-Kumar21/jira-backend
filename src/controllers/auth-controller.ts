@@ -109,6 +109,7 @@ const logIn = async (
     // String(existingUser._id)
     res.cookie("id", token, {
         path: '/',
+        secure: true,
         expires: new Date(Date.now() + 3600000),
         httpOnly: true,
         sameSite: 'none'
@@ -130,6 +131,7 @@ const logout = (
         // Clear the cookie by setting it to an empty string with an expired date
         res.cookie("id", "", {
             path: "/",
+            secure: true,
             expires: new Date(0), // Set expiration to a past date
             httpOnly: true,
             sameSite: "none",
@@ -208,6 +210,7 @@ const refreshToken = (
         // generate cookie
         res.cookie(String(user.id), token, {
             path: "/",
+            secure: true,
             expires: new Date(Date.now() + 3600000),
             httpOnly: true,
             sameSite: "none"
