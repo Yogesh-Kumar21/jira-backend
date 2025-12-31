@@ -112,7 +112,7 @@ const logIn = async (
         secure: true,
         expires: new Date(Date.now() + 3600000),
         httpOnly: true,
-        sameSite: 'none'
+        sameSite: 'lax'
     })
 
     return res.status(200).json({
@@ -134,7 +134,7 @@ const logout = (
             secure: true,
             expires: new Date(0), // Set expiration to a past date
             httpOnly: true,
-            sameSite: "none",
+            sameSite: "lax",
         });
 
         return res.status(200).json({ message: "Logout successful" });
@@ -213,7 +213,7 @@ const refreshToken = (
             secure: true,
             expires: new Date(Date.now() + 3600000),
             httpOnly: true,
-            sameSite: "none"
+            sameSite: "lax"
         })
 
         req.id = user.id
